@@ -54,4 +54,6 @@ func logNestedElement(_ array1:[String], _ array2:[String]){
 //1. Conside worst case
 //2. Drop tha constants(if we get the Big O calculated value as O(7 + 2n); then after drop the constants that vunction's complexity should be O(n))
 //3. Different terms for inputs(We need to consider the inputs and how amny times iterate in Big O claculations)
-//4.
+//4. Drop Non-dominant terms (After complexity calculation if we get the answer like O(7 + 2n + n^2 + n/2) the we can drop the non domininant item and scalability should be O(n^2))
+
+//NOTE:- If our complexity is greater than n^2(like n^3, n^4, and go on) in a program we have to think about our program. We are not doing something properly.
