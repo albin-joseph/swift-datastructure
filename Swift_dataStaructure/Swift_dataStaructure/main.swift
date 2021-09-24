@@ -8,6 +8,7 @@
 import Foundation
 
 let fruits = ["Apple","Orange", "Black Berry", "Avacado", "Rambutan", "Mango"];
+let biscuts = ["Parle-G", "Britania", "Oreo", "Arowroot", "Tiger"]
 
 //Big O(n)
 findAvacdo(fruits);
@@ -15,3 +16,6 @@ findAvacdo(fruits);
 //Big O(1)
 logFirstFruit(fruits)
 logFirstTwoFruit(fruits)
+
+//Big O(n^2)
+logNestedElement(fruits, biscuts)

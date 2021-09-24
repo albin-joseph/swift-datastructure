@@ -22,7 +22,7 @@ func findAvacdo(_ fruitArray:[String]){
     }
 }
 
-/**1. Big O(1)
+/**Big O(1)
  It's also known as `Constant Time. In this n indicates that this will takes constant time to execute if we provide any number of inputs.
  */
 
@@ -36,3 +36,21 @@ func logFirstTwoFruit(_ fruitArray: [String]){
     print(fruitArray[1])
 }
 //The above function complexity is O(2) ---> It's an example of O(1) because it take contant step to execute.
+
+/*Big O(n^2)
+ It's also known as Quadratic. Every element i a collection compares with another. Normally a two nested loop
+ */
+
+func logNestedElement(_ array1:[String], _ array2:[String]){
+    array1.forEach { item1 in
+        array2.forEach { item2 in
+            print(item1, item2)
+        }
+    }
+}
+
+//Big O calculation rules
+//1. Conside worst case
+//2. Drop tha constants(if we get the Big O calculated value as O(7 + 2n); then after drop the constants that vunction's complexity should be O(n))
+//3. Different terms for inputs(We need to consider the inputs and how amny times iterate in Big O claculations)
+//4.
