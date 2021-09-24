@@ -49,6 +49,7 @@ func logNestedElement(_ array1:[String], _ array2:[String]){
     }
 }
 
+
 //Big O calculation rules
 //1. Conside worst case
 //2. Drop tha constants(if we get the Big O calculated value as O(7 + 2n); then after drop the constants that vunction's complexity should be O(n))
