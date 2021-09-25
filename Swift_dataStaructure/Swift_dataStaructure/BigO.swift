@@ -8,7 +8,6 @@
 import Foundation
 
 // Big O indicates the `Scalability` or `Complexity` of an application. This analysis helps to do btter code
-//Cplexity doen't mean how many time take to execute a program(It depend's on machines capability). Complexity means how many expressions we need to execute for getting the output.
 
 /**1. Big O(n)
  It's also known as `Liner Time. In this n indicates the how many steps require to complete the operation. When input count increase O(n) programs execution steps will increase.
