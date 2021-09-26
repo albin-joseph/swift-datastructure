@@ -19,3 +19,9 @@ logFirstTwoFruit(fruits)
 
 //Big O(n^2)
 logNestedElement(fruits, biscuts)
+
+//Test Problem 1
+let isPresent = checkIdenticalPresent(["q", "a", "r", "t"], ["s", "a", "x"])
+print(isPresent)
+let isPresent1 = checkIdenticalPresent(["q", "b", "r", "t"], ["s", "a", "x"])
+print(isPresent1)
