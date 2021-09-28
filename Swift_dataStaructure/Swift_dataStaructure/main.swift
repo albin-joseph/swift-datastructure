@@ -25,3 +25,9 @@ let isPresent = checkIdenticalPresent(["q", "a", "r", "t"], ["s", "a", "x"])
 print(isPresent)
 let isPresent1 = checkIdenticalPresent(["q", "b", "r", "t"], ["s", "a", "x"])
 print(isPresent1)
+
+//Test Problem 2
+let hasPairSum = hasPairWithSum([1,6,8,9,12,5,7], 12);
+print(hasPairSum)
+let hasPairSum2 = hasPairWithSum([1,6,8,9,12,5,18], 12);
+print(hasPairSum2)
