@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4987814627043F3800846B57 /* DSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987814527043F3800846B57 /* DSArray.swift */; };
 		4989524B27002115000323FA /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989524A27002115000323FA /* Problem1.swift */; };
 		4995999127036B0100A0AF3C /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995999027036B0100A0AF3C /* Problem2.swift */; };
 		49B13B9526FD98F00097CCC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B13B9426FD98F00097CCC0 /* main.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4987814527043F3800846B57 /* DSArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSArray.swift; sourceTree = "<group>"; };
 		4989524A27002115000323FA /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		4995999027036B0100A0AF3C /* Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
 		49B13B9126FD98F00097CCC0 /* Swift_dataStaructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_dataStaructure; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 				49B13B9B26FD99180097CCC0 /* BigO.swift */,
 				4989524A27002115000323FA /* Problem1.swift */,
 				4995999027036B0100A0AF3C /* Problem2.swift */,
+				4987814527043F3800846B57 /* DSArray.swift */,
 			);
 			path = Swift_dataStaructure;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4995999127036B0100A0AF3C /* Problem2.swift in Sources */,
+				4987814627043F3800846B57 /* DSArray.swift in Sources */,
 				4989524B27002115000323FA /* Problem1.swift in Sources */,
 				49B13B9C26FD99180097CCC0 /* BigO.swift in Sources */,
 				49B13B9526FD98F00097CCC0 /* main.swift in Sources */,

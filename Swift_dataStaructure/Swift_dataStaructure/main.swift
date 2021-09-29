@@ -31,3 +31,13 @@ let hasPairSum = hasPairWithSum([1,6,8,9,12,5,7], 12);
 print(hasPairSum)
 let hasPairSum2 = hasPairWithSum([1,6,8,9,12,5,18], 12);
 print(hasPairSum2)
+
+//Differen operations in DataStructure
+//1. Insersion
+//2. Deletion
+//3. Traversal
+//4. Searching
+//5.Sorting
+//6. Access
+
+
