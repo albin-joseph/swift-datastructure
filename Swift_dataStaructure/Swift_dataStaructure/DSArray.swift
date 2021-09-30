@@ -15,6 +15,7 @@ import Foundation
 func swiftArrayOperations()->(){
     var fruits:[String] = ["apple","black berry", "orange"]
     //Push O(1)
+    
     fruits.append("Abieu")
     print(fruits)
     fruits.removeLast()
