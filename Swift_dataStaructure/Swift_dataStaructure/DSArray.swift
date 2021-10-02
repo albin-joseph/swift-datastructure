@@ -21,3 +21,4 @@ func swiftArrayOperations()->(){
     fruits.removeLast()
     print(fruits)
 }
+
