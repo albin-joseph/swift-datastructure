@@ -44,6 +44,14 @@ struct AJArray{
         guard let element = data[index] else { return "Array is empty" }
         return element
     }
+    
+    //Pop an item from an array
+    mutating func pop()->String?{
+        guard let element = data[length-1] else { return nil }
+        self.length -= 1
+        data.removeValue(forKey: length)
+        return element
+    }
 }
 
 func arraActions(){
@@ -53,5 +61,8 @@ func arraActions(){
     array.push("Anu")
     print(array)
     print(array.getItem(1))
+    array.push("Emmanuel")
+    print(array.pop() ?? "empty")
+    print(array)
 }
 
