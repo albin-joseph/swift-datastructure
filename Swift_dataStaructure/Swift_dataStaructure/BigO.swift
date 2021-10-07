@@ -61,3 +61,5 @@ func logNestedElement(_ array1:[String], _ array2:[String]){
 
 //Heap- Store variable
 //Stack- track the function calls
+
+

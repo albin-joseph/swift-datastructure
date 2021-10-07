@@ -22,3 +22,26 @@ func swiftArrayOperations()->(){
     print(fruits)
 }
 
+
+struct AJArray{
+    var length:Int
+    var data:[Int:String]
+    init(){
+        length = 0
+        data = [:]
+    }
+    
+    @discardableResult mutating func push(_ newElement:String)->Int{
+        self.data[length] = newElement
+        self.length += 1
+        return self.length
+    }
+}
+
+func arraActions(){
+    var array = AJArray.init()
+    array.push("Albin")
+    array.push("Anu")
+    print(array)
+}
+

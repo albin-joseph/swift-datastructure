@@ -42,3 +42,6 @@ print(hasPairSum2)
 
 
 swiftArrayOperations()
+
+//Data structure by using array
+arraActions()
