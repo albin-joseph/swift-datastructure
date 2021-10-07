@@ -31,17 +31,27 @@ struct AJArray{
         data = [:]
     }
     
+    //new item add to an array ds
     @discardableResult mutating func push(_ newElement:String)->Int{
         self.data[length] = newElement
         self.length += 1
         return self.length
     }
+    
+    //get an item from the array
+    
+    func getItem(_ index:Int)->String{
+        guard let element = data[index] else { return "Array is empty" }
+        return element
+    }
 }
 
 func arraActions(){
     var array = AJArray.init()
+    print(array.getItem(0))
     array.push("Albin")
     array.push("Anu")
     print(array)
+    print(array.getItem(1))
 }
 
