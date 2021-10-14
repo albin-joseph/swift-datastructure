@@ -45,3 +45,7 @@ swiftArrayOperations()
 
 //Data structure by using array
 arraActions()
+
+let revesreStr = reverse("Hi, I am Albin Joseph!")
+print(revesreStr)
+print(reverse2("Hello I am Emmanuel"))
