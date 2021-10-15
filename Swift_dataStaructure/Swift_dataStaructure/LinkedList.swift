@@ -20,7 +20,7 @@ class LinkedList{
     var tail:Node?
     
     var isEmpty:Bool{
-        return head==nil
+        return head == nil
     }
     
     var first:Node?{
@@ -49,6 +49,45 @@ class LinkedList{
             tail = newNode
         }
         head = newNode
+    }
+    
+    func insert(_ index:Int, _ value:String) -> () {
+        if isEmpty && index > 0{
+          print("Can't insert value")
+          return
+        }
+        if(index == 0){
+            prepend(value)
+            return
+        }
+        let newNode = Node.init(value)
+        var traverseIndex = 0
+        var node = head
+        while(traverseIndex < index-1){
+            node = node!.next
+            traverseIndex += 1
+        }
+        let tempNode = node!.next
+        node!.next = newNode
+        newNode.next = tempNode
+    }
+    
+    func remove(_ index:Int) -> String {
+        if isEmpty{
+            return "Linked list is empty"
+        }
+        var traverseIndex = 0
+        var node = head
+        var prevNode = head
+        while(traverseIndex <= index-1){
+            prevNode = node
+            node = node!.next
+            traverseIndex += 1
+        }
+        let tempNode = node!.next
+        prevNode?.next = tempNode
+        
+        return node!.value
     }
 }
 
