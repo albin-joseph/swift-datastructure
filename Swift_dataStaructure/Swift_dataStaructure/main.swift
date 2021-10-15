@@ -53,3 +53,8 @@ print(reverse2("Hello I am Emmanuel"))
 let merged = mergeSortedArray([2,7,9,10],[5,7,9,17])
 print(merged)
 print(mergeSortedArray([0, 3, 10, 15, 20], [1, 5, 12, 19, 25, 30, 50]))
+
+let linkedList = LinkedList()
+linkedList.append("Apple")
+linkedList.append("Orange")
+print(linkedList)

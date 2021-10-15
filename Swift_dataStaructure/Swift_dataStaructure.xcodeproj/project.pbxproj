@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		492FF12D2718A24800D585BC /* ReverseAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492FF12C2718A24800D585BC /* ReverseAString.swift */; };
 		492FF12F2718BD4800D585BC /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492FF12E2718BD4800D585BC /* MergeSortedArray.swift */; };
+		492FF144271968E700D585BC /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492FF143271968E700D585BC /* LinkedList.swift */; };
 		4987814627043F3800846B57 /* DSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987814527043F3800846B57 /* DSArray.swift */; };
 		4989524B27002115000323FA /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989524A27002115000323FA /* Problem1.swift */; };
 		4995999127036B0100A0AF3C /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995999027036B0100A0AF3C /* Problem2.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		492FF12C2718A24800D585BC /* ReverseAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseAString.swift; sourceTree = "<group>"; };
 		492FF12E2718BD4800D585BC /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
+		492FF143271968E700D585BC /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		4987814527043F3800846B57 /* DSArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSArray.swift; sourceTree = "<group>"; };
 		4989524A27002115000323FA /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		4995999027036B0100A0AF3C /* Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				4987814527043F3800846B57 /* DSArray.swift */,
 				492FF12C2718A24800D585BC /* ReverseAString.swift */,
 				492FF12E2718BD4800D585BC /* MergeSortedArray.swift */,
+				492FF143271968E700D585BC /* LinkedList.swift */,
 			);
 			path = Swift_dataStaructure;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				4987814627043F3800846B57 /* DSArray.swift in Sources */,
 				4989524B27002115000323FA /* Problem1.swift in Sources */,
 				49B13B9C26FD99180097CCC0 /* BigO.swift in Sources */,
+				492FF144271968E700D585BC /* LinkedList.swift in Sources */,
 				49B13B9526FD98F00097CCC0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
