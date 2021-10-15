@@ -38,7 +38,17 @@ class LinkedList{
         }else{
             head = newNode
         }
-        tail=newNode
+        tail = newNode
+    }
+    
+    func prepend(_ value:String) -> () {
+        let newNode = Node.init(value)
+        if let _head = head{
+            newNode.next = _head
+        }else{
+            tail = newNode
+        }
+        head = newNode
     }
 }
 
