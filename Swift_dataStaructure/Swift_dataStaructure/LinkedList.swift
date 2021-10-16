@@ -6,7 +6,9 @@
 //
 
 import Foundation
-
+//It's basic component for a linked list
+//It hold value and a reference to the next node.
+//It's implemented by  class
 class Node{
     var value:String
     var next:Node?
@@ -15,6 +17,10 @@ class Node{
     }
 }
 
+//It's Linked list data structre
+//Currently in this we include the properties like head, tail and first and last node.
+//Head and tail help us to do some operations easily
+//In this basic methods also implemented like append, prepend, insert and remove
 class LinkedList{
     var head:Node?
     var tail:Node?

@@ -54,6 +54,8 @@ let merged = mergeSortedArray([2,7,9,10],[5,7,9,17])
 print(merged)
 print(mergeSortedArray([0, 3, 10, 15, 20], [1, 5, 12, 19, 25, 30, 50]))
 
+//Data structure using Linked list
+//Please check LinkedList file for getting implementations
 let linkedList = LinkedList()
 linkedList.append("Apple")
 linkedList.append("Orange")
