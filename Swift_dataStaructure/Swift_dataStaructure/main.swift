@@ -63,3 +63,13 @@ linkedList.prepend("Grape")
 linkedList.insert(2, "Avacado")
 print(linkedList.remove(2))
 print(linkedList)
+
+
+//Stack implement using Linkedlist
+let stack = Stack()
+stack.push("Ant")
+stack.push("Bird")
+stack.push("Cat")
+print(stack)
+stack.push("Dog")
+print(stack)
