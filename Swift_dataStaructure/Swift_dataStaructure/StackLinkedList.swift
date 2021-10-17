@@ -20,3 +20,19 @@ class Stack{
         return ""
     }
 }
+
+extension Stack:CustomStringConvertible{
+    var description: String {
+        var text = "["
+        var node = top
+        while(node != nil){
+            text += "\(node!.value)"
+            node = node!.next
+            if(node != nil){
+                text += ", "
+            }
+        }
+        return text + "]"
+    }
+}
+
