@@ -28,7 +28,19 @@ class Stack{
     }
     
     func pop() -> String {
-        return ""
+        if let _top = top{
+            let holdingPointer = _top.next
+            _top.next = nil
+            top = holdingPointer
+            if(length == 1){
+                bottom = nil
+                top = nil
+            }
+            length -= 1
+            return _top.value
+        }else{
+            return "Stack is empty"
+        }
     }
 }
 
