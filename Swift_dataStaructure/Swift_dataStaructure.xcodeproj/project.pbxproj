@@ -15,6 +15,7 @@
 		4995999127036B0100A0AF3C /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995999027036B0100A0AF3C /* Problem2.swift */; };
 		499D1E14271BCCD40029ACE9 /* StackLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499D1E13271BCCD40029ACE9 /* StackLinkedList.swift */; };
 		499D1E16271BDEAF0029ACE9 /* StackArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499D1E15271BDEAF0029ACE9 /* StackArray.swift */; };
+		49A4CE7B271DDD66005C482A /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4CE7A271DDD66005C482A /* BinaryTree.swift */; };
 		49B13B9526FD98F00097CCC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B13B9426FD98F00097CCC0 /* main.swift */; };
 		49B13B9C26FD99180097CCC0 /* BigO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B13B9B26FD99180097CCC0 /* BigO.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		4995999027036B0100A0AF3C /* Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
 		499D1E13271BCCD40029ACE9 /* StackLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackLinkedList.swift; sourceTree = "<group>"; };
 		499D1E15271BDEAF0029ACE9 /* StackArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackArray.swift; sourceTree = "<group>"; };
+		49A4CE7A271DDD66005C482A /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		49B13B9126FD98F00097CCC0 /* Swift_dataStaructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_dataStaructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B13B9426FD98F00097CCC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49B13B9B26FD99180097CCC0 /* BigO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigO.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				492FF143271968E700D585BC /* LinkedList.swift */,
 				499D1E13271BCCD40029ACE9 /* StackLinkedList.swift */,
 				499D1E15271BDEAF0029ACE9 /* StackArray.swift */,
+				49A4CE7A271DDD66005C482A /* BinaryTree.swift */,
 			);
 			path = Swift_dataStaructure;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				492FF12F2718BD4800D585BC /* MergeSortedArray.swift in Sources */,
 				499D1E16271BDEAF0029ACE9 /* StackArray.swift in Sources */,
 				4987814627043F3800846B57 /* DSArray.swift in Sources */,
+				49A4CE7B271DDD66005C482A /* BinaryTree.swift in Sources */,
 				4989524B27002115000323FA /* Problem1.swift in Sources */,
 				49B13B9C26FD99180097CCC0 /* BigO.swift in Sources */,
 				492FF144271968E700D585BC /* LinkedList.swift in Sources */,
