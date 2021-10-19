@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class BinaryNode{
+    var value: Int
+    var left: BinaryNode?
+    var right: BinaryNode?
+    init(_ value: Int) {
+        self.value = value
+    }
+}
