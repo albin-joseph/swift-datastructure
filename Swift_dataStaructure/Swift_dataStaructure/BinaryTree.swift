@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BinaryNode{
+class BinaryNode {
     var value: Int
     var left: BinaryNode?
     var right: BinaryNode?
