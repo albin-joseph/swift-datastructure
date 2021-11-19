@@ -15,3 +15,15 @@ class BinaryNode {
         self.value = value
     }
 }
+let c = [0,1,0,0,9]
+func jumpingOnClouds(c: [Int]) -> Int {
+    // Write your code here
+    var jumpCount = 0
+    for i in 0 ... c.count-1{
+        if((c[i]) != 0){
+          jumpCount += 1
+      }
+    }
+    return jumpCount
+}
+

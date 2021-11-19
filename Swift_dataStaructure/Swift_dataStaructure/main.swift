@@ -88,3 +88,16 @@ stackArray.push("Avacado")
 stackArray.push("Abeiu")
 print(stackArray.pop())
 print(stackArray.pop())
+
+print(jumpingOnClouds(c: [0,1]))
+
+//Algorithms
+var algo = AlAlgorithms()
+let factorial = algo.getFactorial(5)
+print(factorial)
+print("nth item of Fibanocci")
+print(algo.fibanocii(6))
+
+print("Fibonocci Series")
+algo.getFibnociiSeries(10)
+
