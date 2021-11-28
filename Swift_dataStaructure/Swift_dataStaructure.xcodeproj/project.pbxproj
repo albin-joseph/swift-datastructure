@@ -18,6 +18,7 @@
 		49A4CE7B271DDD66005C482A /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4CE7A271DDD66005C482A /* BinaryTree.swift */; };
 		49B13B9526FD98F00097CCC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B13B9426FD98F00097CCC0 /* main.swift */; };
 		49B13B9C26FD99180097CCC0 /* BigO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B13B9B26FD99180097CCC0 /* BigO.swift */; };
+		49B91D1B27537ECE00C29008 /* BubleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B91D1A27537ECE00C29008 /* BubleSort.swift */; };
 		49FD8A722746CC6D00BBAE38 /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FD8A712746CC6D00BBAE38 /* Algorithms.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		49B13B9126FD98F00097CCC0 /* Swift_dataStaructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_dataStaructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B13B9426FD98F00097CCC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49B13B9B26FD99180097CCC0 /* BigO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigO.swift; sourceTree = "<group>"; };
+		49B91D1A27537ECE00C29008 /* BubleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubleSort.swift; sourceTree = "<group>"; };
 		49FD8A712746CC6D00BBAE38 /* Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				499D1E15271BDEAF0029ACE9 /* StackArray.swift */,
 				49A4CE7A271DDD66005C482A /* BinaryTree.swift */,
 				49FD8A712746CC6D00BBAE38 /* Algorithms.swift */,
+				49B91D1A27537ECE00C29008 /* BubleSort.swift */,
 			);
 			path = Swift_dataStaructure;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				4989524B27002115000323FA /* Problem1.swift in Sources */,
 				49B13B9C26FD99180097CCC0 /* BigO.swift in Sources */,
 				492FF144271968E700D585BC /* LinkedList.swift in Sources */,
+				49B91D1B27537ECE00C29008 /* BubleSort.swift in Sources */,
 				49B13B9526FD98F00097CCC0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

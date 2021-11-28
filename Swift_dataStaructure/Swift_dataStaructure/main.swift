@@ -101,3 +101,10 @@ print(algo.fibanocii(6))
 print("Fibonocci Series")
 algo.getFibnociiSeries(10)
 
+let str = "Albin Joseph"
+var characters = Array(str)
+algo.reverseString(&characters)
+
+print(algo.quickSort([1,7,9,5,6,2,4]))
+var arr = [1,7,9,5,6,2,4]
+print(bubleSort(&arr))
