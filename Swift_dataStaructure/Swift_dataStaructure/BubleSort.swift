@@ -8,7 +8,7 @@
 import Foundation
 
 func  bubleSort(_ array: inout [Int]) -> [Int] {
-    if(array.count < 1){
+    if(array.count < 2){
         return array
     }
     

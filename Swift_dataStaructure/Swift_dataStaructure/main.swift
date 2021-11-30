@@ -107,4 +107,11 @@ algo.reverseString(&characters)
 
 print(algo.quickSort([1,7,9,5,6,2,4]))
 var arr = [1,7,9,5,6,2,4]
-print(bubleSort(&arr))
+
+print("Bubble Sort : " , bubleSort(&arr))
+
+print("Selection Sort : " , selectionSort(&arr))
+
+let mergeAlgo = MergeSort.init()
+let sortedArray = mergeAlgo.mergeSort([90,2,5,7,89,45,20, 50,1])
+print("Merge sort: ", sortedArray)
