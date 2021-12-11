@@ -124,3 +124,6 @@ print(array)
 
 let intersection = getIntersectionOfTwoArrays([1,6,5, 5, 5, 5, 7, 8, 2, 3, 9], [3,4,7,5,8,5,9,3])
 print(intersection)
+
+let freqChar = getMaxFreqChater("aabbccbbaww")
+print("most frequent char \(freqChar)")
