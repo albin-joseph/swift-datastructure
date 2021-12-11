@@ -115,3 +115,12 @@ print("Selection Sort : " , selectionSort(&arr))
 let mergeAlgo = MergeSort.init()
 let sortedArray = mergeAlgo.mergeSort([90,2,5,7,89,45,20, 50,1])
 print("Merge sort: ", sortedArray)
+
+let result = getNumberPairs([12, 1, 2, 5, 7, 9, 10], 19)
+print(result)
+
+let array = getConsecutiveNumberPairs([1,2,4,5,6,8,9,10, 12])
+print(array)
+
+let intersection = getIntersectionOfTwoArrays([1,6,5, 5, 5, 5, 7, 8, 2, 3, 9], [3,4,7,5,8,5,9,3])
+print(intersection)
