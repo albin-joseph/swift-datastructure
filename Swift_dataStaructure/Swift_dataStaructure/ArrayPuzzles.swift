@@ -32,3 +32,43 @@ func getIntersectionOfTwoArrays(_ a:[Int], _ b:[Int]) -> [Int] {
         return []
     }
 }
+
+func getIntersectionByHashing(_ a:[Int], _ b:[Int]) -> [Int] {
+    if(a.count > 0 && b.count > 0){
+        var resultArray:[Int] = []
+        let a1 = a.sorted()
+        let b1 = b.sorted()
+        var hashMap:[Int:Int] = [:]
+        for element in a{
+            if let freq = hashMap[element]{
+                hashMap[element] = freq + 1
+            }else{
+                hashMap[element] = 1
+            }
+        }
+        for (key,element) in hashMap{
+            
+        }
+        return resultArray
+    }else{
+        return []
+    }
+}
+
+func getDuplicates(_ a:[Int]) -> [Int:Int] {
+    return  a.reduce(into: [:], {$0[$1] = ($0[$1] ?? 0) + 1})
+}
+
+
+func getMostFrequentOccuring(_ a:[Int]) -> Int {
+    let frequency = a.reduce(into: [:], {$0[$1] = ($0[$1] ?? 0) + 1})
+    var maxValue = 0
+    var freqItem = 0
+    for (key, value) in frequency{
+        if(maxValue < value){
+            freqItem = key
+            maxValue = value
+        }
+    }
+    return freqItem
+}

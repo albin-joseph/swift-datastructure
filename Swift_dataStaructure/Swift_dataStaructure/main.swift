@@ -124,6 +124,18 @@ print(array)
 
 let intersection = getIntersectionOfTwoArrays([1,6,5, 5, 5, 5, 7, 8, 2, 3, 9], [3,4,7,5,8,5,9,3])
 print(intersection)
+let intersectionh = getIntersectionByHashing([1,6,5, 5, 5, 5, 7, 8, 2, 3, 9], [3,4,7,5,8,5,9,3])
+print(intersectionh)
 
 let freqChar = getMaxFreqChater("aabbccbbaww")
 print("most frequent char \(freqChar)")
+
+print(isAPalindrome("malayalam"))
+print(isAPalindrome("abcdcdaa"))
+
+let duplicates = getDuplicates([1,6,5, 5, 5, 5, 7, 8, 2, 3, 9])
+print(duplicates)
+
+let mostOccuring = getMostFrequentOccuring([1,6,5, 5, 5, 5, 7, 8, 2, 3, 9])
+print("most occuring value: \(mostOccuring)")
+

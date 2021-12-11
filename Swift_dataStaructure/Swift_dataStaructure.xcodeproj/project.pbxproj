@@ -21,6 +21,7 @@
 		49AB5411276476F2001253E4 /* GetThePairsOfTwoNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AB5410276476F2001253E4 /* GetThePairsOfTwoNumberSum.swift */; };
 		49AB541327649E35001253E4 /* ArrayPuzzles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AB541227649E35001253E4 /* ArrayPuzzles.swift */; };
 		49AB54152764A82A001253E4 /* MaximumCharacterOccurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AB54142764A82A001253E4 /* MaximumCharacterOccurance.swift */; };
+		49AB54172764B2BD001253E4 /* StringPuzzles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AB54162764B2BD001253E4 /* StringPuzzles.swift */; };
 		49B13B9526FD98F00097CCC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B13B9426FD98F00097CCC0 /* main.swift */; };
 		49B13B9C26FD99180097CCC0 /* BigO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B13B9B26FD99180097CCC0 /* BigO.swift */; };
 		49B91D1B27537ECE00C29008 /* BubleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B91D1A27537ECE00C29008 /* BubleSort.swift */; };
@@ -55,6 +56,7 @@
 		49AB5410276476F2001253E4 /* GetThePairsOfTwoNumberSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetThePairsOfTwoNumberSum.swift; sourceTree = "<group>"; };
 		49AB541227649E35001253E4 /* ArrayPuzzles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPuzzles.swift; sourceTree = "<group>"; };
 		49AB54142764A82A001253E4 /* MaximumCharacterOccurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumCharacterOccurance.swift; sourceTree = "<group>"; };
+		49AB54162764B2BD001253E4 /* StringPuzzles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPuzzles.swift; sourceTree = "<group>"; };
 		49B13B9126FD98F00097CCC0 /* Swift_dataStaructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_dataStaructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B13B9426FD98F00097CCC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49B13B9B26FD99180097CCC0 /* BigO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigO.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				49B13B9426FD98F00097CCC0 /* main.swift */,
+				49AB54162764B2BD001253E4 /* StringPuzzles.swift */,
 				49B13B9B26FD99180097CCC0 /* BigO.swift */,
 				4989524A27002115000323FA /* Problem1.swift */,
 				4995999027036B0100A0AF3C /* Problem2.swift */,
@@ -188,6 +191,7 @@
 				49AB5411276476F2001253E4 /* GetThePairsOfTwoNumberSum.swift in Sources */,
 				4989524B27002115000323FA /* Problem1.swift in Sources */,
 				49AB54152764A82A001253E4 /* MaximumCharacterOccurance.swift in Sources */,
+				49AB54172764B2BD001253E4 /* StringPuzzles.swift in Sources */,
 				49B13B9C26FD99180097CCC0 /* BigO.swift in Sources */,
 				492FF144271968E700D585BC /* LinkedList.swift in Sources */,
 				49B91D1B27537ECE00C29008 /* BubleSort.swift in Sources */,
