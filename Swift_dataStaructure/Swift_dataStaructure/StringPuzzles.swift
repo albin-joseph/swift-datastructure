@@ -21,3 +21,14 @@ func isAPalindrome(_ str:String) -> Bool{
     return isPalidrome
 }
 
+func getFirstRepeatedChar(_ str:String) -> String {
+    var hashMap:[Character:Bool] = [:]
+    for element in str{
+        if let exist = hashMap[element], exist{
+            return String(element)
+        }else{
+            hashMap[element] = true
+        }
+    }
+    return "No item repeating"
+}

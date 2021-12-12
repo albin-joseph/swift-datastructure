@@ -139,3 +139,5 @@ print(duplicates)
 let mostOccuring = getMostFrequentOccuring([1,6,5, 5, 5, 5, 7, 8, 2, 3, 9])
 print("most occuring value: \(mostOccuring)")
 
+let firstRepeatChar = getFirstRepeatedChar("abcdecd")
+print("First Repeat char: \(firstRepeatChar)")
