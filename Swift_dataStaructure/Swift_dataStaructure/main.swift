@@ -141,3 +141,13 @@ print("most occuring value: \(mostOccuring)")
 
 let firstRepeatChar = getFirstRepeatedChar("abcdecd")
 print("First Repeat char: \(firstRepeatChar)")
+
+//Compare Two Struct is copare by Hashable
+
+let person1 = Person(id: 1, name: "Albin", address: "Calicut")
+let person2 = Person(id: 2, name: "Anu", address: "Calicut")
+let person3 = Person(id: 1, name: "Albin", address: "Calicut")
+
+print(isSamePerson(person1, person2))
+print(isSamePerson(person1, person3))
+

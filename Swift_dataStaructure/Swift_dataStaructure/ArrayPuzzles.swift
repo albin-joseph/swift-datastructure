@@ -72,3 +72,21 @@ func getMostFrequentOccuring(_ a:[Int]) -> Int {
     }
     return freqItem
 }
+
+
+//Copare Two Struct values
+
+struct Person: Hashable {
+    let id: Int
+    let name: String
+    let address: String
+    func hash(into: inout Hasher) {
+        into.combine(id)
+        into.combine(name)
+        into.combine(address)
+    }
+}
+
+func isSamePerson(_ a: Person, _ b: Person) -> Bool {
+    return a == b
+}
