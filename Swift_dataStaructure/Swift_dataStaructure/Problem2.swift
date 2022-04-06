@@ -9,6 +9,7 @@ import Foundation
 /**Write a function to check a pair with sum **/
 //0>array.count<100
 
+
 func hasPairWithSum(_ array:[Int], _ sum: Int)->Bool{
     let len = array.count
     var setvalue = Set<Int>()
